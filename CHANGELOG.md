@@ -8,8 +8,8 @@
 
   * Quality: Drop PHP5.4. (Ivan Enderlin, 2016-01-11T09:15:27+01:00)
   * Quality: Run devtools:cs. (Ivan Enderlin, 2016-01-09T09:11:14+01:00)
-  * Core: Remove `Hoa\Core`. (Ivan Enderlin, 2016-01-09T08:28:17+01:00)
-  * Consistency: Use `Hoa\Consistency`. (Ivan Enderlin, 2015-12-08T22:13:46+01:00)
+  * Core: Remove `igorora\Core`. (Ivan Enderlin, 2016-01-09T08:28:17+01:00)
+  * Consistency: Use `igorora\Consistency`. (Ivan Enderlin, 2015-12-08T22:13:46+01:00)
 
 # 1.15.08.17
 
@@ -27,11 +27,11 @@
 # 1.14.12.10
 
   * Move to PSR-4. (Ivan Enderlin, 2014-12-10T08:57:26+01:00)
-  * Require `hoa/test`. (Alexis von Glasow, 2014-11-26T13:27:32+01:00)
+  * Require `igorora/test`. (Alexis von Glasow, 2014-11-26T13:27:32+01:00)
 
 # 1.14.11.15
 
-  * Finalizing `Hoa\Visitor`! (Ivan Enderlin, 2014-11-15T22:17:25+01:00)
+  * Finalizing `igorora\Visitor`! (Ivan Enderlin, 2014-11-15T22:17:25+01:00)
   * Best tests ever. (Ivan Enderlin, 2014-11-15T22:14:50+01:00)
   * Remove the unnecessary exception. (Ivan Enderlin, 2014-11-15T22:10:05+01:00)
   * Remove `from`/`import` and update to PHP5.4. (Ivan Enderlin, 2014-11-15T22:02:43+01:00)

@@ -36,13 +36,13 @@ declare(strict_types=1);
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-namespace Hoa\Visitor\Test\Unit;
+namespace igorora\Visitor\Test\Unit;
 
-use Hoa\Test;
-use Hoa\Visitor as LUT;
+use igorora\Test;
+use igorora\Visitor as LUT;
 
 /**
- * Class \Hoa\Visitor\Test\Unit\Element.
+ * Class \igorora\Visitor\Test\Unit\Element.
  *
  * Test suite of the interface.
  */
@@ -51,7 +51,7 @@ class Element extends Test\Unit\Suite
     public function case_interface(): void
     {
         $this
-            ->when($result = new \Mock\Hoa\Visitor\Element())
+            ->when($result = new \Mock\igorora\Visitor\Element())
                 ->object($result)
                     ->isInstanceOf(LUT\Element::class);
     }

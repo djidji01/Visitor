@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Hoa
  *
@@ -36,17 +34,25 @@ declare(strict_types=1);
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-namespace Hoa\Visitor;
+namespace igorora\Visitor;
 
 /**
- * Interface \Hoa\Visitor\Element.
+ * Interface \igorora\Visitor\Element.
  *
  * Interface to visit an element.
+ *
+ * @copyright  Copyright © 2007-2017 Hoa community
+ * @license    New BSD License
  */
 interface Element
 {
     /**
      * Accept a visitor.
+     *
+     * @param   \igorora\Visitor\Visit  $visitor    Visitor.
+     * @param   mixed               &$handle    Handle (refence).
+     * @param   mixed               $eldnah     Handle (no reference).
+     * @return  mixed
      */
     public function accept(Visit $visitor, &$handle = null, $eldnah  = null);
 }
